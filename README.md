@@ -2,7 +2,7 @@
 Remote shutdown for windows using SSH. Target machine has to have SSH enabled.
 
 You will need to change the host and password in the script.
-### If you know how to logout the currently user via SSH, please make a Issue.
+#### If you know how to logout the currently user via SSH, please make a Issue.
 To get the sleep function to work, this command needs to be first executed once in a administrator terminal:
 
     powercfg -h off
