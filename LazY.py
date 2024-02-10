@@ -87,6 +87,7 @@ def logoff_target():
 def wait_for_host():
     global ssh
     print("Waiting for host to start:")
+    time.sleep(5)
     online = False
     check = 0
     while not online:
