@@ -4,7 +4,7 @@ import os
 import time
 import subprocess
 
-hostlist = ['192.168.0.2','192.168.0.1']        #Ip`s without port. SSH server port must be 22. Can be multiple.
+hostlist = ['192.168.0.1','192.168.0.2']        #Ip`s without port. SSH server port must be 22. Can be multiple.
 username = 'user'                               #Username of the windows account. Must be admin.
 password = 'password'                           #The password of the account
 auto_reconnect = False        #If set to True, will ping the host until it is back online except when doing a shutdown.
