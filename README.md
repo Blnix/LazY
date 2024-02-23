@@ -11,11 +11,11 @@ To get the sleep function to work, this command needs to be first executed once 
 
 Clone the repository:
      
-     git clone https://github.com/Blnix/LazY.git
+    git clone https://github.com/Blnix/LazY.git
 
 Install depedencice:
 
-     pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run it:
 
