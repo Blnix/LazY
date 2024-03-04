@@ -19,9 +19,15 @@ while True:
         print("Multiple host found:")
         for index, item in enumerate(hostlist, start=1):
             print(f"{index}. {item}")
+        index_position = len(hostlist) + 1
+        print(str(index_position) + ". To use another IP.")
         user_choice = input()
         if user_choice.isdigit() and 1 <= int(user_choice) <= len(hostlist):
             host = hostlist[int(user_choice) - 1]
+            break
+        elif user_choice.isdigit() and int(user_choice) > len(hostlist):
+            print("What ip do you want to connect to?")
+            host = input()
             break
         else:
             os.system('cls' if os.name == 'nt' else 'clear')
